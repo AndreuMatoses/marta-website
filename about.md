@@ -5,16 +5,18 @@ subtitle: Architect at Pedro Ferreira Architecture Studio
 permalink: /about/
 ---
 
-![Marta on the beach]({{site.baseurl}}/assets/images/marta_by_the_beach.png)
+<div class="row pt-3 ">
+    <div class="col-lg-7">
+        <img src="{{site.baseurl}}/assets/images/marta_on_the_beach.webp" class="img-fluid" style="object-fit: contain;" alt="me on the beach">
+    </div>
+    <div class="col-lg-5">
+        <h2> About Me </h2>
+        <p>I'm a curious soul, always eager to understand and learn from life. One of the things I love the most is the sea because it brings me peace and a profound sense of freedom, ideals that I endeavour to apply in my profession. Additionally, I take delight in exploring the creative realms of architecture, art, and classical music, firmly believing that the embrace of various art forms fosters our intellectual and social growth.</p>
+        <p>I hold a deep affection for animals, cherish human connections, and find solace in smiles and warm hugs.</p>
+        <p><em>At heart, I'm a dreamer.</em></p>  
+    </div>
+</div>
 
-## About Me
-
-I'm a curious soul, always eager to understand and learn from life. One of the things I love the most is the sea because it brings me peace and a profound sense of freedom, ideals that I endeavour to apply in my profession. Additionally, I take delight in exploring the creative realms of architecture, art, and classical music, firmly believing that the embrace of various art forms fosters our intellectual and social growth.
-
-I hold a deep affection for animals, cherish human connections, and find solace in smiles and warm hugs.
-
-At heart, I'm a dreamer.
-<br/>
 <br/>
 
 ### Professional Experience
