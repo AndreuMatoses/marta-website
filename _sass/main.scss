@@ -86,6 +86,18 @@ pre.highlight {
   width: auto; /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
   object-fit: contain;
 }
+
+.carousel-control-next-icon,
+      .carousel-control-prev-icon {
+        filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.915));
+        // filter: invert(100%);
+        // -webkit-text-stroke: 1px black; /* For WebKit browsers */
+        // text-stroke: 1px black; /* Standard */
+      }
+
+// .carousel-caption {
+//   text-shadow: 0px 0px 4px #ffffff;
+// }
 // a {
 //   color: rgb(58, 58, 58);
 // }
