@@ -82,7 +82,7 @@ pre.highlight {
 .carousel-item img {
   // width: 100%;
   // height: auto;
-  max-height: 80vh;
+  // max-height: 80vh;
   margin: 0 auto; /* this will align the image to center. */
   width: auto; /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
   object-fit: contain;
