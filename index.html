@@ -43,7 +43,7 @@ layout: default
 
 
 <!-- archive sorted by types -->
-<div class="archive mt-2">
+<!-- <div class="archive mt-2">
 
   <h1>Archive</h1>
 
@@ -55,29 +55,28 @@ layout: default
   {% assign type = currType %} 
   {% endif %}
   <div class="archive-item">
-    <!-- <span class="post-date archive-date fs-4">{{ post.date | date: "%B %d, %Y" }}</span> -->
-    <span class="post-date archive-date fs-4">{{ post.date | date: "%Y" }}</span>
-    <a href="{{ post.url | relative_url }}" class="archive-title fs-4">{{ post.title }}</a>
-  </div>
-  {% endfor %}
-
-</div>
-
-<!-- archive sorted by dates -->
-
-<!-- <div class="archive mt-2">
-
-  <h1>Archive</h1>
-
-  {% assign sortedPosts = site.portfolio | sort: date | reverse %}
-  {% for post in sortedPosts %}
-  <div class="archive-item">
     <span class="post-date archive-date fs-4">{{ post.date | date: "%Y" }}</span>
     <a href="{{ post.url | relative_url }}" class="archive-title fs-4">{{ post.title }}</a>
   </div>
   {% endfor %}
 
 </div> -->
+
+<!-- archive sorted by dates -->
+
+<div class="archive mt-2">
+
+  <h1>Archive</h1>
+
+  {% assign sortedPosts = site.portfolio | sort: date | reverse %}
+  {% for post in sortedPosts %}
+  <div class="archive-item">
+    <span class="post-date archive-date fs-6">{{ post.date | date: "%Y" }}</span>
+    <a href="{{ post.url | relative_url }}" class="archive-title fs-6">{{ post.title }}</a>
+  </div>
+  {% endfor %}
+
+</div>
 
 <!-- <div class="archive">
   {% for post in site.posts %} {% assign currDate = post.date | date: "%Y" %} {%
