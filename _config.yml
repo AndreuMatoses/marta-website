@@ -18,7 +18,7 @@ darkavatar: # /assets/images/dark_bauhaus_logo.png
 tagline: Architecture Portfolio
 
 # A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description, and also as part of the page's title tag if neither page.title nor site.tagline has been defined.
-description: Architecture Portfolio for Marta Miranda Maçães Viana 
+description: Architecture Portfolio 
 
 # The full URL to your site. Note: site.github.url will be used by default.
 url: https://andreumatoses.github.io/marta-website
@@ -33,7 +33,7 @@ baseurl: /marta-website
 author: Marta and Andreu
 
 # URL to a site-wide logo (e.g., /assets/your-company-logo.png)
-logo: /assets/images/light_bauhaus_logo.png
+# logo: /assets/images/light_bauhaus_logo.png
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
@@ -56,11 +56,11 @@ defaults:
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: mkie0125@gmail.com
+  email: martamirandaviana@gmail.com
   facebook:
-  github: andrewhwanpark/brutalist-blog
-  instagram: andrewhwanpark
-  linkedin: andrewhwanpark
+  github: 
+  instagram: martagaiaoviana
+  linkedin: marta-macaes-viana
   rss: # just type anything here for a working RSS icon
   twitter:
 
